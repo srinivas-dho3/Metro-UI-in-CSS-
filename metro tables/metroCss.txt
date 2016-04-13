@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300,100' rel='stylesheet' type='text/css'>
+	<title></title>
+	<style type="text/css">
+	div.container{
+		padding:3px;
+	}
+	div{
+		padding:40px;
+	}
+div.block-1{
+width: 100px;
+height: 100px;
+background-color:#E67E22;
+}	
+div.block-2{
+width: 100px;
+height: 100px;
+background: linear-gradient(90deg,#2ecc71,#27ae60);
+}	
+div.block-3{
+width: 284px;
+height: 100px;
+background: linear-gradient(90deg,#ea6153, #c0392b);
+}	
+div.block-4{
+width: 100px;
+height: 100px;
+background: linear-gradient(90deg,#3498db, #2980b9);
+
+}	
+div.block-5 {
+width: 100px;
+height: 100px;
+background: linear-gradient(90deg,#566573  , #2980b9);
+}	
+span{
+	font-family: 'Roboto',Arial, Helvetica;
+	position: relative;
+	top:100px;
+	right:30px;
+	color:white;
+	font-size:20px;
+}
+div .block-1:hover{
+	background-color:#c0392b;
+	opacity: 2.0;
+    filter: alpha(opacity=100);
+    cursor: hand;
+}
+div .block-2:hover{
+	background-color:#c0392b;
+	opacity: 2.0;
+    filter: alpha(opacity=100);
+
+}
+div .block-3:hover{
+	background-color:#c0392b;
+	opacity: 2.0;
+    filter: alpha(opacity=100);
+}
+div .block-4:hover{
+	background-color:#c0392b;
+	opacity: 2.0;
+    filter: alpha(opacity=100);
+}
+div .block-5:hover{
+	background-color:#c0392b;
+	opacity: 2.0;
+    filter: alpha(opacity=100);
+}
+</style>
+
+</head>
+<body>
+<div  class = "container">
+ <table>
+ 	<tr>
+ 		<td id ="hov">
+ 			<div class="block-1 hov"><span>Gallery</span></div>
+ 		</td>
+        <td>
+        	<div class= "block-2"><span>Components</span></div>
+        </td>	
+        <td>
+        	<div class= "block-4"><span>designs</span></div>
+        </td>
+ 	</tr>
+ 	<tr>
+ 		<td colspan="2">
+ 			<div class="block-3"><span>FrameWork</span></div>
+ 		</td>
+ 		<td>
+ 			<div class="block-5"><span>Javascript</span></div>
+ 		</td>
+        
+ 	</tr>
+ </table>
+ </div>
+</body>
+</html>﻿
